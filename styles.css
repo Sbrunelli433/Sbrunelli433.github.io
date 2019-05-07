@@ -147,3 +147,21 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
 	color: white;
 
 }
+.container1{
+	padding: 50px;
+	margin: 50px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: white;
+	background-color: black;
+	color: white;
+}
+.container2{
+	padding: 50px;
+	margin: 50px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: white;
+	background-color: white;
+	color: black;
+}
