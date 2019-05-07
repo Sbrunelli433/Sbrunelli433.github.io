@@ -1,0 +1,149 @@
+body{
+	background-color: white;	
+}
+h1, h2, h3, h4, h5, h6, p, ul, li {
+  background-color: white;
+}
+
+
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	border: none;
+	outline: none;
+	background-color: red;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 10px;
+	font-size: 18px;
+}
+
+#myBtn:hover {
+	background-color: #555;
+}
+
+.bold-Class2{
+	color: blue;
+	font-weight: bold;
+	font-size: 48x;
+	padding: 50px;
+	margin: 50px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: red;
+}
+
+.Class1{
+	color: blue;
+	background-color: pink;
+	font-family: arial;
+	font-size: 24px;
+	border-style: solid;
+	border-color: red;
+
+}
+
+.Headshot{
+	padding: 0px;
+	border-width: 10px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 180px;
+
+}
+
+.underlineClass{
+	text-decoration: underline;
+	font-size: 24px;
+
+	}
+
+.underlineClass1{
+	background-color: yellow;
+	font-size: 16px;
+	font-family: Arial;
+	border-style: solid;
+	border-color: navy;
+}
+
+.ul_class{
+	background-color: white;
+}
+
+.container{
+	padding: 50px;
+	margin: 50px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: white;
+	background-color: black;
+}
+.contactP1{
+	color: red;
+	font-size: 24px;
+}
+
+.ContactClass1{
+	padding: 10px;
+	margin: 10px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: white;
+	background-color: yellow;
+}
+
+.githubemblem	{
+	padding: 20px;
+	margin: 20px;
+	background-color: blue;
+}
+
+.NavBar1	{
+
+		margin: 0;
+		padding: 0px;
+		width: 60px;
+		background-color: white;
+		border: 1px solid black;
+	}
+
+	span a.active {
+		background-color: red;
+		color: blue;
+
+	}
+			
+	span a.hover.not(.active)	{
+		background-color: black;
+		color: yellow;
+}
+
+.topnav{
+	background-color: black;
+	overflow: hidden;
+}
+
+.topnav a{
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.topnav a:hover {
+	background-color: #dddddd;
+	color: black;	
+
+}
+
+.topnav a.active {
+	background-color: #4CAF50;
+	color: white;
+
+}
