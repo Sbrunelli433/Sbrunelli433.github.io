@@ -1,0 +1,36 @@
+.navbar {
+    height: 12rem;
+    position: relative;
+
+    &__logo-box {
+        position: absolute;
+        top: 1.5rem;
+        left: 1rem;
+    }
+
+    &__logo {
+        height: 8.5rem;
+    }
+
+    &__nav-link {
+        box-sizing: border-box;
+        width: 10rem;
+        text-align: center;
+        font-size: 1.7rem;
+    }
+
+    &__auth-box {
+        box-sizing: border-box;
+        width: 10rem;
+        text-align: center;
+        font-size: 1.7rem;
+
+        &--signup{
+            background-color: $color-primary-blue;
+            font-size: 1.7rem;
+            padding-left: 5px;
+            padding-right: 5px;
+            margin-left: -10px;
+        }
+    }
+}
