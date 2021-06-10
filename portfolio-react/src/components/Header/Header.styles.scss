@@ -6,12 +6,14 @@
     align-items: center;
     justify-content: space-between;
     height: 5rem;
+    background-color: bisque;
 
 
     .left-header {
         align-items: center;
         display: flex;
         width: 40%;
+    
 
         .navbar-logo {
             color: #fff;
@@ -19,10 +21,6 @@
             cursor: pointer;
             text-decoration: none;
             font-size: 2rem;
-
-            img {
-                height: 250px;
-            }
         }
     }
 
@@ -33,12 +31,18 @@
         justify-content: flex-end;
         width: 60%;
         font: 500 36px "Quicksand", "sans-serif";
-        display: block;
+        
 
         .header-item {
             font: 800 36px "Barlow", "sans-serif";
             color: $main-text;
             margin: 0 25px 0 0;
+            text-decoration: none;
+            transition: 0.3s ease-in-out;
+        }
+        :hover {
+            transition: 0.3s ease-in-out;
+            color: $helium-blue;
         }
 
         .header-login {
