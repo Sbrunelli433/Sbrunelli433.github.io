@@ -9,6 +9,7 @@ import LandingPage from './pages/LandingPage/LandingPage';
 import AboutPage from './pages/AboutPage/AboutPage.jsx';
 import ProjectsPage from './pages/ProjectsPage/ProjectsPage';
 import ContactPage from './pages/ContactPage/ContactPage';
+import Footer from './components/Footer/Footer.component';
 
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
 			<Route exact path='/projects' component={ProjectsPage} />
 			<Route exact path='/contact' component={ContactPage} />
 		</Switch>
+		<Footer />
+
 	</div>
 	);
 }
