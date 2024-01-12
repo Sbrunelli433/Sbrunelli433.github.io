@@ -1,16 +1,12 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import './App.css';
-
-
-
 import Header from './components/Header/Header.component.jsx';
 import LandingPage from './pages/LandingPage/LandingPage';
 import AboutPage from './pages/AboutPage/AboutPage.jsx';
 import ProjectsPage from './pages/ProjectsPage/ProjectsPage';
 import ContactPage from './pages/ContactPage/ContactPage';
 import Footer from './components/Footer/Footer.component';
-
 
 function App() {
 	return (

@@ -1,4 +1,5 @@
 {
+  "homepage": "https://sbrunelli433.github.io/sbrunelli433.github.io",
   "name": "portfolio-react",
   "version": "0.1.0",
   "private": true,
@@ -6,15 +7,19 @@
     "@testing-library/jest-dom": "^5.13.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
-    "react": "^18.2.0",
+    "gh-pages": "^6.0.0",
+    "react": "^16.9.0",
     "react-burger-menu": "^3.0.6",
-    "react-dom": "^18.2.0",
+    "react-dom": "^16.9.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.3",
-    "styled-components": "^6.0.9",
-    "web-vitals": "^2.1.4"
+    "react-scripts": "3.1.1",
+    "styled-components": "^4.3.2",
+    "web-vitals": "^2.1.4",
+    "react-focus-lock": "^2.0.5"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
