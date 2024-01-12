@@ -1,5 +1,6 @@
 import React from 'react';
 import Calculator from '../../components/Calculator/Calculator.component';
+import './ProjectsPage.styles.scss';
 
 const ProjectsPage = () => {
 
@@ -8,7 +9,6 @@ const ProjectsPage = () => {
             <h1>This is my Projects Page</h1>
 
             <div class="feature">
-                <h1>Basic Calculator</h1>
                 <Calculator />
             </div>
         </div>
