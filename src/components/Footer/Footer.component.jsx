@@ -17,10 +17,10 @@ function Footer() {
                         <Link to='/about'  className="footer-link" >
                             About
                         </Link>
-                        <Link to='/about' class="footer-link">
+                        <Link to='/about' className="footer-link">
                             About
                         </Link>
-                        <Link to='/about' class="footer-link">
+                        <Link to='/about' className="footer-link">
                             About
                         </Link>
                     </div>
@@ -33,10 +33,10 @@ function Footer() {
                         <Link to='/about'  className="footer-link" >
                             About
                         </Link>
-                        <Link to='/about' class="footer-link">
+                        <Link to='/about' className="footer-link">
                             About
                         </Link>
-                        <Link to='/about' class="footer-link">
+                        <Link to='/about' className="footer-link">
                             About
                         </Link>
                     </div>
@@ -49,10 +49,10 @@ function Footer() {
                         <Link to='/about'  className="footer-link" >
                             About
                         </Link>
-                        <Link to='/about' class="footer-link">
+                        <Link to='/about' className="footer-link">
                             About
                         </Link>
-                        <Link to='/about' class="footer-link">
+                        <Link to='/about' className="footer-link">
                             About
                         </Link>
                     </div>

@@ -6,16 +6,16 @@ import "./ProjectsPage.styles.scss";
 function Panel({ title, children }) {
   const [isActive, setIsActive] = useState(false);
   return (
-    <section className="panel">
+    <div className="component">
       {isActive ? (
-        <div>
-          <p>{children}</p>
-          <button onClick={() => setIsActive(false)}>Hide {title}</button>
-        </div>
+        <Fragment>
+          <div>{children}</div>
+          <button className="hide-btn" onClick={() => setIsActive(false)}>Hide {title}</button>
+        </Fragment>
       ) : (
         <button onClick={() => setIsActive(true)}>Show {title}</button>
       )}
-    </section>
+    </div>
   );
 }
 
@@ -23,7 +23,7 @@ const ProjectsPage = ({ children }) => {
   return (
     <div>
       <h1>This is my Projects Page</h1>
-      <div class="feature">
+      <div className="feature">
         <Panel title="Calculator">
           <Calculator />
         </Panel>
