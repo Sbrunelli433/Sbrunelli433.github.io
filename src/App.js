@@ -18,7 +18,6 @@ function App() {
 			<Route exact path='/projects' component={ProjectsPage} />
 			<Route exact path='/contact' component={ContactPage} />
 		</Switch>
-		<Footer />
 
 	</div>
 	);
